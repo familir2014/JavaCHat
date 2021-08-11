@@ -164,10 +164,6 @@ class BaseAuthService implements IAuthService {
     }
 
     /**
-     * Функция для преобразования строки с помощью MD5.
-     *
-     * https://howtodoinjava.com/security/how-to-generate-secure-password-hash-md5-sha-pbkdf2-bcrypt-examples/
-     *
      * @param string
      */
     private String stringToMd5(String string) {
